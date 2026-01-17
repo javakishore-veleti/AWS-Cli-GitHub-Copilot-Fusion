@@ -2,8 +2,6 @@
 
 A hands-on guide for integrating AWS CLI with GitHub Copilot using custom instructions. Enables developers to manage AWS profiles using natural language commands like `/aws-profile check dev` or `/aws-profile create all`. Features resilient profile creation, interactive prompts, and cross-environment support for dev, qa, staging, and prod workflows.
 
----
-
 ## 🤔 Why This Exists
 
 **The Problem:**
@@ -26,8 +24,6 @@ You: /aws-billing cost
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
----
-
 ## See It In Action
 
 ### Installing AWS CLI
@@ -45,8 +41,6 @@ You: /aws-billing cost
 ```
 ✅ AWS CLI v2.15.0 installed successfully!
 ```
-
----
 
 ### Setting Up Profiles
 
@@ -69,8 +63,6 @@ You: /aws-billing cost
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
----
-
 ### Checking Your AWS Bill
 
 **What you ask:**
@@ -92,8 +84,6 @@ You: /aws-billing cost
 ║  ⚠️  ALERT: Projected to exceed budget by $456               ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
-
----
 
 ### Working with S3
 
@@ -146,8 +136,6 @@ You: /aws-billing cost
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
----
-
 ### Creating Dashboards from Excel
 
 **What you ask:**
@@ -174,8 +162,6 @@ You: /aws-billing cost
 ║  📋 Link copied to clipboard!                                ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
-
----
 
 ## 🌍 Supported Environments
 
